@@ -3,7 +3,7 @@
 This repository helps you develop and train YOLOv3 network for real-time detection of small objects in real-time.
 
 # License
-This repo is licensed under MIT license. This work is adaption from AntonMu/TrainYourOwnYOLO which itself is inspired by qqwweee/keras-yolo3
+This repo is licensed under MIT license. This work is adaption from [AntonMu/TrainYourOwnYOLO](https://github.com/AntonMu/TrainYourOwnYOLO) which itself is inspired by [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
 
 # Steps
 Firstly, the anchors are estimated using fuzzy logic,
