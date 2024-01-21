@@ -5,6 +5,12 @@ This repository helps you develop and train YOLOv3 network for real-time detecti
 # License
 This repo is licensed under MIT license. This work is adaption from [AntonMu/TrainYourOwnYOLO](https://github.com/AntonMu/TrainYourOwnYOLO) which itself is inspired by [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
 
+# Author
+[Hafsa Amanullah](https://github.com/Hafsa1918) - [LinkedIn Profile](https://www.linkedin.com/in/hafsa-amanullah)
+
+# Collaborator
+[Dr. Yawar Rehman](https://github.com/YawarGuguma)
+
 # Steps
 Firstly, the anchors are estimated using fuzzy logic,
 then those anchor set and train image patches are input to the modified YOLOv3 network.
@@ -21,4 +27,7 @@ Traffic sign detection in GTSDB dataset (a) Traffic sign size variation in an im
 
 Traffic sign detection in STS dataset (a-c) Small-sized traffic sign detection (d) A large-sized traffic sign detection
 
+# Our previous work for the traffic sign detection
 
+1. Y. Rehman, H. Amanullah, M. A. Shirazi and M. Y. Kim, "Small Traffic Sign Detection in Big Images: Searching Needle in a Hay," in IEEE Access, vol. 10, pp. 18667-18680, 2022, doi: 10.1109/ACCESS.2022.3150882.
+2. Rehman, Y.; Amanullah, H.; Saqib Bhatti, D.M.; Toor, W.T.; Ahmad, M.; Mazzara, M. Detection of Small Size Traffic Signs Using Regressive Anchor Box Selection and DBL Layer Tweaking in YOLOv3. Appl. Sci. 2021, 11, 11555. https://doi.org/10.3390/app112311555
