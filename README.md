@@ -3,7 +3,7 @@
 This repository helps you develop and train YOLOv3 network for real-time detection of small objects in real-time.
 
 # License
-This repo is licensed under MIT license. This work is adaption from [AntonMu/TrainYourOwnYOLO](https://github.com/AntonMu/TrainYourOwnYOLO) which itself is inspired by [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
+This repository is licensed under MIT license. This work is adaption from [AntonMu/TrainYourOwnYOLO](https://github.com/AntonMu/TrainYourOwnYOLO), which was inspired from [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
 
 # Author
 [Hafsa Amanullah](https://github.com/Hafsa1918) - [LinkedIn Profile](https://www.linkedin.com/in/hafsa-amanullah)
