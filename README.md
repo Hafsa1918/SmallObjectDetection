@@ -1,6 +1,6 @@
 # SmallObjectDetection
 
-This repository helps you develop and train YOLOv3 network for real-time detection of small objects in real-time.
+This repository helps in development and training YOLOv3 network for real-time detection of small objects in real-time.
 
 # License
 This repository is licensed under MIT license. This work is adaption from [AntonMu/TrainYourOwnYOLO](https://github.com/AntonMu/TrainYourOwnYOLO), which was inspired from [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
