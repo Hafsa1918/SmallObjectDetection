@@ -11,7 +11,7 @@ This repository is licensed under MIT license. This work is adaption from [Anton
 # Collaborators
 [Prof. Min Young Kim] - [Google scholar](https://scholar.google.com.pk/citations?user=Xhawz8EAAAAJ&hl=en)
 
-[Dr. Yawar Rehman](https://github.com/YawarGuguma) - [LinkedIn Profile](https://www.linkedin.com/in/yawar-rehman-820118b/)
+[Dr. Yawar Rehman] (https://github.com/YawarGuguma) - [LinkedIn Profile](https://www.linkedin.com/in/yawar-rehman-820118b/)
 
 # Steps
 Firstly, the anchors are estimated using fuzzy logic,
