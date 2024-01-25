@@ -6,7 +6,7 @@ This repository helps in development and training YOLOv3 network for real-time d
 This repository is licensed under MIT license. This work is adaption from [AntonMu/TrainYourOwnYOLO](https://github.com/AntonMu/TrainYourOwnYOLO), which was inspired from [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
 
 # Author
-[Hafsa Amanullah](https://github.com/Hafsa1918) - [LinkedIn Profile](https://www.linkedin.com/in/hafsa-amanullah)
+[Hafsa Amanullah] - [Github](https://github.com/Hafsa1918) - [LinkedIn Profile](https://www.linkedin.com/in/hafsa-amanullah)
 
 # Collaborators
 [Prof. Dr. Min Young Kim] - [Google scholar](https://scholar.google.com.pk/citations?user=Xhawz8EAAAAJ&hl=en)
