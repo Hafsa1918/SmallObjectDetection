@@ -14,9 +14,15 @@ This repository is licensed under MIT license. This work is adaption from [Anton
 [Dr. Yawar Rehman] - [Github](https://github.com/YawarGuguma) - [LinkedIn Profile](https://www.linkedin.com/in/yawar-rehman-820118b/)
 
 # Steps
+
+You may use this code for small traffic sign detection by following these simple steps.
+
 1- Estimate anchors using anchors.mat file
+
 2- Copy test and train images in Data/Source_images/Test_images and Data/Source_images/Training_images respectively
+
 3- Use [Train_YOLO.py](https://github.com/Hafsa1918/SmallObjectDetection/blob/main/Training/Train_YOLO.py) to train your network. 
+
 4- Use [Detector.py](https://github.com/Hafsa1918/SmallObjectDetection/blob/main/Inference/Detector.py) to test the trained network with test images.
 
 The remaining codes will be uploaded soon
