@@ -1,4 +1,4 @@
-# SmallObjectDetection
+# Small Object Detection
 
 This repository helps in development and training of YOLOv3 network for real-time detection of small objects such as traffic signs.
 
