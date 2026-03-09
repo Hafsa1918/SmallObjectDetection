@@ -1,1 +1,3 @@
-Cat_Face
+danger
+mandatory
+prohibitory
