@@ -26,8 +26,8 @@ def convert_vott_csv_to_yolo(
     if not "code" in vott_df.columns:
         vott_df["code"] = vott_df["label"].apply(lambda x: labeldict[x])
     # Round float to ints
-    for col in vott_df[["xmin", "ymin", "xmax", "ymax"]]:
-        vott_df[col] = (vott_df[col]).apply(lambda x: round(x))
+    #for col in vott_df[["xmin", "ymin", "xmax", "ymax"]]:
+    #    vott_df[col] = (vott_df[col]).apply(lambda x: round(x))
 
     # Create Yolo Text file
     last_image = ""
@@ -42,7 +42,7 @@ def convert_vott_csv_to_yolo(
             txt_file += ",".join(
                 [
                     str(x)
-                    for x in (row[["xmin", "ymin", "xmax", "ymax", "code"]].tolist())
+                    for x in (row[["xmin", "ymin", "xmax", "ymax", "code", "confidence"]].tolist())
                 ]
             )
         else:
@@ -50,7 +50,7 @@ def convert_vott_csv_to_yolo(
             txt_file += ",".join(
                 [
                     str(x)
-                    for x in (row[["xmin", "ymin", "xmax", "ymax", "code"]].tolist())
+                    for x in (row[["xmin", "ymin", "xmax", "ymax", "code", "confidence"]].tolist())
                 ]
             )
         last_image = row["image"]
