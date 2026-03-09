@@ -121,7 +121,7 @@ if __name__ == "__main__":
         "--confidence",
         type=float,
         dest="score",
-        default=0.25,
+        default=0.4,
         help="Threshold for YOLO object confidence score to show predictions. Default is 0.25.",
     )
 
