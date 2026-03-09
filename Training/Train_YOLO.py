@@ -1,5 +1,5 @@
 """
-MODIFIED FROM keras-yolo3 PACKAGE, https://github.com/AntonMu/TrainYourOwnYOLO
+MODIFIED FROM keras-yolo3 PACKAGE, https://github.com/qqwweee/keras-yolo3
 Retrain the YOLO model for your own dataset.
 """
 
@@ -191,7 +191,7 @@ if __name__ == "__main__":
     anchors = get_anchors(anchors_path)
 
     input_shape = (416, 416)  # multiple of 32, height, width
-    epoch1, epoch2 = 10, FLAGS.epochs
+    epoch1, epoch2 = FLAGS.epochs, FLAGS.epochs
 
     is_tiny_version = len(anchors) == 6  # default setting
     if FLAGS.is_tiny:
@@ -223,7 +223,7 @@ if __name__ == "__main__":
 
     # This step makes sure that the path names correspond to the local machine
     # This is important if annotation and training are done on different machines (e.g. training on AWS)
-  #  lines = ChangeToOtherMachine(lines, remote_machine="")
+    lines = ChangeToOtherMachine(lines, remote_machine="")
     np.random.shuffle(lines)
     num_val = int(len(lines) * val_split)
     num_train = len(lines) - num_val
@@ -266,7 +266,7 @@ if __name__ == "__main__":
         initial_epoch=0,
         callbacks=frozen_callbacks,
     )
-    model.save_weights(os.path.join(log_dir, "trained_weights_stage_1_L2_fa_w_patches_darknet_19.h5"))
+    model.save_weights(os.path.join(log_dir, "trained_weights_stage_1.h5"))
 
     # Unfreeze and continue training, to fine-tune.
     # Train longer if the result is unsatisfactory.
@@ -284,7 +284,7 @@ if __name__ == "__main__":
 
     print("Unfreeze all layers.")
 
-    batch_size = 8  # note that more GPU memory is required after unfreezing the body
+    batch_size = 4  # note that more GPU memory is required after unfreezing the body
     print(
         "Train on {} samples, val on {} samples, with batch size {}.".format(
             num_train, num_val, batch_size
@@ -303,4 +303,4 @@ if __name__ == "__main__":
         initial_epoch=epoch1,
         callbacks=full_callbacks,
     )
-    model.save_weights(os.path.join(log_dir, "trained_weights_final_L2_fa_w_patches.h5"))
+    model.save_weights(os.path.join(log_dir, "trained_weights_final.h5"))
